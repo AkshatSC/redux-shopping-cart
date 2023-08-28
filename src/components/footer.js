@@ -5,7 +5,7 @@ function Footer(){
   return(
     <div class="footer">
       <div class="footer-info">
-        <a href="#" target="_blank">Link to Github repo</a>
+        <a href="https://github.com/AkshatSC/redux-shopping-cart/tree/master" target="_blank">Link to Github repo</a>
         <p>Made by Akshat</p>
       </div>
 
