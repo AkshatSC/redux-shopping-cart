@@ -1,0 +1,13 @@
+#header{
+  background-color: skyblue;
+}
+h4{
+  font-weight: bold;
+}
+.badge{
+  font-size: 15px;
+}
+.cart_icon {
+    position: relative;
+    cursor: pointer;
+}
