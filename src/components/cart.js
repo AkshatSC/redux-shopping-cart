@@ -61,7 +61,7 @@ const Cart = () => {
                                     className="close_btn"
                                     onClick={() => handleCloseCart(false)}
                                 >
-                                    <span>&times;</span>
+                                    <span className="close-btn-span">&times;</span>
                                 </div>
                             </div>
 
@@ -86,9 +86,9 @@ const Cart = () => {
                                                     </div>
 
                                                     <div className="cart_items_quantity">
-                                                        <span onClick={() => handleDecrement(id)}>&#8722;</span>
+                                                        <span className="update-cart" onClick={() => handleDecrement(id)}>&#8722;</span>
                                                         <b>{quantity}</b>
-                                                        <span onClick={() => handleIncrement(id)}>&#43;</span>
+                                                        <span className="update-cart" onClick={() => handleIncrement(id)}>&#43;</span>
                                                     </div>
 
                                                     <div

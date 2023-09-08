@@ -9,7 +9,7 @@
 }
 
 .cart_content {
-    background-color: #f5f9fc;;
+    background-color: #F0F0F0;
     position: absolute;
     top: 0;
     right: 0;
@@ -22,15 +22,15 @@
     padding: 1rem;
     text-align: center;
     box-shadow:0px 5px 15px rgba(0, 0, 0, 0.5);
-    background-color: #593D88;
+    background-color: #1d243b;
 
     .close_btn {
         position: absolute;
         top: 0;
         left: 0;
-        background-color: #ebedf0;
+        background-color: #F0F0F0;
         color: #000;
-        padding: 0.2rem 0.6rem;
+        padding: 0.6rem 2rem;
         cursor: pointer;
         opacity: 0.8;
         transition: opacity 0.2s ease;
@@ -74,7 +74,7 @@
     align-items: center;
     flex-direction: column;
     gap: 0.8rem;
-    background-color: #593D88;
+    background-color: #1d243b;;
     color: #fff;
     padding: 0.5rem 0;
 
@@ -115,7 +115,7 @@
     width: 100%;
     padding: 1rem;
     box-shadow:  0px -5px 15px rgba(0, 0, 0, 0.5);
-    background-color: #593D88;
+    background-color: #1d243b;
   }
 
     h3 {
@@ -126,9 +126,11 @@
     }
 
     .checkout_btn {
-        background-color: #ebedf0;
+        background-color: #F0F0F0;
         color: #000;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        border:0px solid;
+        border-radius: 0.2rem;
         padding: 0.4rem 0.8rem;
       }
 
@@ -140,4 +142,10 @@
 
 .overflow_hide {
     overflow: hidden;
+}
+.close-btn-span{
+  font-size: 30px;
+}
+.update-cart{
+  cursor: pointer;
 }

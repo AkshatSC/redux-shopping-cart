@@ -15,7 +15,7 @@ img {
         font-weight: bold;
     }
 .btn {
-            background-color: #593D88;
+            background-color:  #1d243b;
             color: #ddd;
             width: 100%;
             margin-top: 1rem;
@@ -30,6 +30,8 @@ img {
   padding:0px;
   margin:10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #F0F0F0;
+  color: black;
 }
 .card-header{
   border-bottom: 0;
